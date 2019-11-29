@@ -1,0 +1,19 @@
+
+@inproceedings{hua_boosting_2019,
+	location = {New York, {NY}, {USA}},
+	title = {Boosting the Performance of {CNN} Accelerators with Dynamic Fine-Grained Channel Gating},
+	isbn = {978-1-4503-6938-1},
+	url = {http://doi.acm.org/10.1145/3352460.3358283},
+	doi = {10.1145/3352460.3358283},
+	series = {{MICRO} '52},
+	abstract = {This paper proposes a new fine-grained dynamic pruning technique for {CNN} inference, named channel gating, and presents an accelerator architecture that can effectively exploit the dynamic sparsity. Intuitively, channel gating identifies the regions in the feature map of each {CNN} layer that contribute less to the classification result and turns off a subset of channels for computing the activations in these less important regions. Unlike static network pruning, which removes redundant weights or neurons prior to inference, channel gating exploits dynamic sparsity specific to each input at run time and in a structured manner. To maximize compute savings while minimizing accuracy loss, channel gating learns the gating thresholds together with weights automatically through training. Experimental results show that the proposed approach can significantly speed up state-of-the-art networks with a marginal accuracy loss, and enable a trade-off between performance and accuracy. This paper also shows that channel gating can be supported with a small set of extensions to a {CNN} accelerator, and implements a prototype for quantized {ResNet}-18 models. The accelerator shows an average speedup of 2.3× for {ImageNet} when the theoretical {FLOP} reduction is 2.8×, indicating that the hardware can effectively exploit the dynamic sparsity exposed by channel gating.},
+	pages = {139--150},
+	booktitle = {Proceedings of the 52Nd Annual {IEEE}/{ACM} International Symposium on Microarchitecture},
+	publisher = {{ACM}},
+	author = {Hua, Weizhe and Zhou, Yuan and De Sa, Christopher and Zhang, Zhiru and Suh, G. Edward},
+	urldate = {2019-11-26},
+	date = {2019},
+	note = {event-place: Columbus, {OH}, {USA}},
+	keywords = {algorithm-hardware co-design, dynamic pruning, neural networks},
+	file = {ACM Full Text PDF:C\:\\Users\\蓝梦\\Zotero\\storage\\TAXWJTVD\\Hua 等。 - 2019 - Boosting the Performance of CNN Accelerators with .pdf:application/pdf}
+}
